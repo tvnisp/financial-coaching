@@ -1,0 +1,17 @@
+@import 'animate.css' ;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.btn-ghost {
+	@apply hover:bg-brandBlue hover:text-white;
+}
+
+.btn-primary {
+	@apply bg-brandYellow hover:bg-brandBlue hover:text-white text-white border-none normal-case;
+}
+
+.btn-secondary {
+  @apply bg-transparent hover:bg-brandYellow border border-brandYellow text-white hover:border-none
+}
