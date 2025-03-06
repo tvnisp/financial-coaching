@@ -4,7 +4,7 @@ async function getClient(preview?: false) {
 	if (preview) {
 		return contentful.createClient({
 			space: '63wthzi2ru8c',
-			accessToken: 'JlYVL037RPi66xOC1RxYCrKunRz6ok6WF_8Al6CPZ1c',
+			accessToken: '--',
 			environment: 'financial-coaching',
 			host: 'preview.contentful.com',
 		});
@@ -12,7 +12,7 @@ async function getClient(preview?: false) {
 
 	return contentful.createClient({
 		space: '63wthzi2ru8c',
-		accessToken: 'JlYVL037RPi66xOC1RxYCrKunRz6ok6WF_8Al6CPZ1c',
+		accessToken: '--',
 		environment: 'financial-coaching',
 	});
 }
